@@ -1,0 +1,220 @@
+body{
+    width: 100%;
+    /* height: ; */
+    opacity:0.9;
+   
+}
+
+
+.blog-container{
+    background-image: url("/imges/baek.jpg"); 
+    background-size:contain;
+    /* background-repeat: round; */
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:412px 1fr 1fr 100px;
+    gap: 2%;
+
+
+
+
+}
+.blog-item{
+
+    margin: 15px;
+    width: 100%;
+    height: 100% 
+    
+} 
+ 
+.header{
+    font-family: 'Rubik Dirt';
+    color:rgba(215, 62, 62, 0.963);
+    grid-column: 2/12;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 50%;
+    
+} 
+.header h1{
+    font-size:70px;
+}
+
+.header  ul{
+    /* background-color: blueviolet; */
+    list-style-type:none ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center; 
+    margin: 30px;
+    margin-top: 25px; 
+    margin-bottom:0 ;
+    padding: 0;
+    height: 10%;
+    gap: 10px;
+   
+    
+}
+.header li:hover{
+    font-size: 40px;
+   height: 85px;
+}
+   
+.header a{
+ 
+    text-decoration: none;
+    margin:auto;
+    /* border: 2px solid red; */
+    /* background-color: rgba(225, 111, 111, 0.515); */
+    height: 75px;
+    width: 100%;
+    
+}  
+    
+
+.header li{
+    font-size:30px ;
+    display:inline;
+    color: rgb(14, 18, 16);
+     
+   
+
+
+}
+.contect{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    color: rgb(52, 33, 33);
+    grid-column: 2/12;
+    background-color:rgba(217, 94, 94, 0.525);
+    border-radius: 20px;
+    /* opacity: 0.6; */
+    border: 2px solid rgba(244, 205, 205, 0.211);
+    padding:0 15px 0 15px;
+    /* margin-bottom: 10%; */
+    text-align: center;
+    height: 100%;
+    
+}
+p{
+   color: black;
+}
+
+
+.footer{
+   
+grid-column: 2/12;
+grid-row: 4/5;
+text-align: center;
+/* border: 2px solid red; */
+height: 60%;
+
+}
+.menu{
+    font-family: 'Rubik Dirt';
+    grid-column: 2/12;
+   
+    
+    
+}
+.menu ul{
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr);
+    grid-template-rows:repeat( 2, 1fr);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    gap: 25px;
+} 
+.menu li, a{
+    font-family: 'Rubik Dirt';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    /* background-image: url("/project-blog/imges/beer.jpg"); */
+    background-size: cover;
+    /* border: 7px rgba(243, 96, 96, 0.616) solid; */
+    border-radius:28px ;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 55px;
+    color: rgb(161, 48, 48);
+
+}
+#wine{
+    background-image: url("/imges/wine .jpg")
+}
+#beer{
+   
+    /* width: 100%; / */
+    background-image: url("/imges/beer.jpg");
+}
+#qon{
+    background-image: url("/imges/qon.avif")
+}
+#rom{
+    background-image: url("/imges/rom.jfif")
+}
+#jin{
+    background-image: url("/imges/jin.webp");
+
+}
+#vis{
+    background-image: url("/imges/wiski.jpg")
+}
+/* .menu li a{
+    /* text-align: center; 
+    width: 100%;
+    height: 100%;
+    color: rgb(194, 63, 63); 
+ } */
+
+    /* margin-bottom:20px ; */
+    /* width: 100%;
+    height: 100%;
+     */
+@media screen and (max-width: 950px){
+    .blog-container{
+   
+
+    }
+    
+    .menu ul{
+        display: grid;
+        grid-template-columns:repeat(2 , 1fr);
+        grid-template-rows:repeat( 3, 1fr);
+    }
+    div .content {
+        display: none;
+    }
+    
+
+}
+@media screen and (max-width: 750px){
+    .menu ul{
+        display: grid;
+        grid-template-columns:repeat(1 , 1fr);
+        grid-template-rows:repeat( 6, 1fr);
+    }
+    div .content{
+        display: none;
+    }
+    
+
+}
+
+     
+    
+    
+   
+    
+  
+
+
+

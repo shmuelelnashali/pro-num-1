@@ -1,0 +1,161 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.page-contanar{
+    background-image: url("/imges/baek.jpg"); 
+    background-size:cover;
+    background-repeat: repeat-y;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 380px 2fr 1fr 150px;
+    gap: 5%;
+}
+
+.page{
+
+        margin: 15px;
+        width: 100%;
+        height: 100% 
+        
+    } 
+
+
+.haeder h1{
+    font-size: 70px;
+
+}
+
+.header{
+    color:rgba(215, 62, 62, 0.963);
+    font-family: 'Rubik Dirt';
+    align-items: center;
+    grid-column: 2/12;
+    text-align: center;
+     display: flex; 
+    flex-direction: column;
+    text-align: center;
+    /* height: 50%; */
+
+} 
+.header  ul{
+    /* background-color: blueviolet; */
+    list-style-type:none ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center; 
+    margin: 30px;
+    margin-top: 25px; 
+    margin-bottom:0 ;
+    padding: 0;
+    height: 10%;
+    gap: 10px;
+    width: 100%
+}
+
+.header li{
+    font-size:30px ;
+    /* display:inline; */
+    color: rgb(14, 18, 16)  ;
+}
+
+.header a{
+
+    text-decoration: none;
+    margin:auto;
+    /* border: 2px solid red; */
+    /* background-color: rgba(225, 111, 111, 0.515); */
+    height: 75px;
+    width: 100%;}
+
+.menu{
+    grid-column: 2/12;
+    /* border: red 1px solid; */
+    /* min-height: auto; */
+   
+}
+.menu ul{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    list-style-type:none ;
+    gap:6%; 
+}
+.menu li{
+    font-family: 'Rubik Dirt';
+    width: 100%; 
+    /* background-image: url("/project-blog/imges/beer.jpg"); */
+    background-size: cover;
+    justify-content: center;
+    color: rgb(194, 63, 63);
+    border-radius: 25px;
+   
+}
+
+.col{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center; 
+    border: 7px rgba(243, 96, 96, 0.616) solid;
+  max-height: 100%; 
+}
+
+
+
+
+.header li:hover{
+    font-size: 40px;
+    height: 85px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.col .img{
+   
+    width: 100%;
+    height: 100%;
+   
+    border-bottom-left-radius: 20px;
+    opacity: 0.86;
+    /* border: 7px rgba(243, 96, 96, 0.616) solid; */
+    border-top-left-radius:20px ;
+}
+
+
+li .artcle{
+    text-align: center;
+    /* display: inline-block; */ 
+    
+    font-size:16px;
+}
+
+
+
+
+.video{
+    grid-column: 3/11;
+    width: 100%;
+    height: 100%;
+}
+.video iframe{
+    margin-top:20px ;
+    border: 7px rgba(243, 96, 96, 0.616) solid;
+    border-radius: 20px;
+}
+
+
+.footer{
+    grid-column: 2/12;
+    /* border: red 1px solid; */
+
+
+}
